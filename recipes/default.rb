@@ -7,6 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-remote_file "/tmp/beanstalk-sample.zip"
+remote_file "/tmp/beanstalk-sample.zip" do
   source "http://s3.amazonaws.com/elasticbeanstalk-samples-us-east-1/nodejs-sample.zip"
 end
